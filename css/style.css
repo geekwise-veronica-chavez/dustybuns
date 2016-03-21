@@ -79,3 +79,11 @@ li{
     background-color: #bccf3d;
     padding: 15px;
 }
+
+/*dropdown and li*/
+#downward{
+    display: none;
+}
+#downward:checked+.sf-li{
+    
+}
