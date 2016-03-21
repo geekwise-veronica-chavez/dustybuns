@@ -35,9 +35,9 @@ ul{
     display: flex;
 }
 li{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
-    padding: 0;
+    padding:0;
     display: inline-block;
     list-style:none;
     text-align: center;
@@ -56,7 +56,7 @@ li{
     font-size: 48px;
     position: relative;
     text-align: center;
-    top: -500px;
+    top: -420px;
     text-transform: capitalize;
     color: #fff;
     font-family:"muli";
@@ -78,12 +78,60 @@ li{
 .buns-li:hover{
     background-color: #bccf3d;
     padding: 15px;
+    border: 1px solid #fff;
 }
 
 /*dropdown and li*/
-#downward{
+.downward{
+    display: ;
+}
+.sf-li{
+    height: 150px;
+    background-color: #f5f5f5;
     display: none;
 }
-#downward:checked+.sf-li{
+.downward:checked~.sf-li{
+    display: block;
     
+}
+.bistro{
+    width: 180px;
+    height: 30px;
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 10px
+    
+}
+
+.locations{
+    text-decoration: none;
+    color: black;
+    font-family: muli;
+    font-weight: 400;
+    font-size: 14px;
+}
+.buns-2{
+    
+}
+.buns-2:checked~.catering{
+    display: block;
+}
+.catering{
+    height: 150px;
+    background-color: #f5f5f5;
+    display: none;
+}
+
+.bistro2{
+     width: 180px;
+    height: 30px;
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 10px
+}
+.yellow{
+    color: #ffc300;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: solid;
 }
