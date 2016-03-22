@@ -286,7 +286,7 @@ hr{
     font-weight: 550;
 }
 .social-media{
-    font-size: 18px;
+    font-size: 16px;
     color: grey;
     padding: 10px;
     text-align: center;
@@ -302,4 +302,44 @@ hr{
 }
 .grey-line{
     color: lightgray;
+    width: 10%;
+}
+.home-footer{
+    float: left;
+    width: 100%;
+    background-image: url("http://i.imgur.com/7qJwgPk.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    height: 30vh;
+}
+.main-footer{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    height: auto;
+    
+}
+.dusty-small{
+    color: #fff;
+    font-size: 32px;
+    font-family: pacifico;
+    text-transform: capitalize;
+    padding: 15px;
+    float: left;
+}
+.copyright{
+    color: yellow;
+    font-size: 18px;
+    width: 25%;
+    clear: both;
+    padding: 20px;
+    float: left;
+}
+.footer-font{
+    font-size: 28px;
+    color: #fff;
+    float: right;
+    font-family: muli;
+    
 }
