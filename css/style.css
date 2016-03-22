@@ -17,7 +17,8 @@ body{
     background-size:100%;
     background-repeat: no-repeat;
     background-origin: content-box;
-    height: 50rem;
+    background-size: cover;
+    height: 100vh;
 }
 header{
     margin: 0 auto;
@@ -211,4 +212,14 @@ hr{
 .tele:hover{
     color: black;
     text-decoration: underline;
+}
+.top-middle{
+    width: 50%;
+    float: left;
+}
+.sm-info{
+    
+}
+.orange{
+    
 }
