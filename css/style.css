@@ -4,7 +4,12 @@ html,body{
     width: 100%;
     font-size: 12px;
 }
-
+body{
+    color: #525252;
+    font-family: "muli",sans-serif;
+    font-weight: 300;
+    
+}
 .burger{
     margin: 0;
     padding: 0;
@@ -129,9 +134,81 @@ li{
     text-align: left;
     padding-left: 10px
 }
+.middle-text{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
 .yellow{
     color: #ffc300;
-    text-transform: uppercase;
-    font-size: 42px;
+    text-transform: capitalize;
+    font-size: 48px;
     font-weight: solid;
+    
+}
+.fork-img{
+    
+}
+.info{
+    font-size: 18px;
+    line-height: 2;
+}
+main{
+    width:100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+}
+.bistro-location{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+.top-left{
+    width: 50%;
+    height: 640px;
+    margin: 0;
+    padding: 0;
+}
+.lg-img{
+    float: left
+}
+.green{
+    width: 45%;
+    float: left;
+    height: 610px;
+    background-color: #bccf3d;
+    text-align: center;
+    padding: 15px;
+}
+.font-awesome{
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px;
+    margin:0;
+
+    
+}
+
+.text-location{
+    font-size: 16px;
+    color: #fff;
+    
+}
+hr{
+    width: 50%;
+}
+.tele{
+    color: grey;
+    font-size: 16px;
+    text-decoration: none;
+}
+.tele:hover{
+    color: black;
+    text-decoration: underline;
 }
