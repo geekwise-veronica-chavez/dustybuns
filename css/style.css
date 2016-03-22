@@ -140,7 +140,7 @@ li{
     margin: auto;
     text-align: center;
     position: relative;
-    top: -150px;
+    top: -160px;
 }
 .yellow{
     color: #ffc300;
@@ -167,24 +167,31 @@ main{
     width: 85%;
     margin: 0 auto;
     padding: 0;
+    position: relative;
+    top: -150px;
+
 }
 .top-left{
-    width: 48%;
-    height: 600px;
+    width: 50%;
     margin: 0;
     padding: 0;
     float: left;
 }
 .lg-img{
+    width: 50%;
     float: left
+}
+.salad{
+    width: 100%;
+    height: 497px;
 }
 .green{
     width: 43%;
     float: left;
-    height: 570px;
+    height: 460px;
     background-color: #bccf3d;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 .font-awesome{
     color: #fff;
@@ -213,13 +220,13 @@ hr{
     text-decoration: underline;
 }
 .top-right{
-   width: 45%;
+   width: 50%;
     margin: 0;
     padding: 0;
     float: left;
 }
 .sm-info{
-    width: 250px;
+    width: 280px;
     height: 250px;
     float: left;
     margin: 0;
@@ -229,3 +236,38 @@ hr{
     background-color: #ffc300;
     text-align: center;
 }
+.pics-home{
+    width: 100%;
+}
+
+
+.wood-img{
+    background-image: url("http://i.imgur.com/QpDhcuw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 500px;
+}
+
+.bottom-half{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 0;
+    
+}
+
+.bottom-left{
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+.bottom-right{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+
+
