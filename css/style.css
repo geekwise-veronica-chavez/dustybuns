@@ -250,10 +250,12 @@ hr{
 }
 
 .bottom-half{
-    width: 80%;
+    width: 85%;
     margin: auto;
     height: auto;
     padding: 0;
+    position: relative;
+    top: -140px;
     
 }
 
