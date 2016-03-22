@@ -164,23 +164,24 @@ main{
     
 }
 .bistro-location{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 0;
 }
 .top-left{
-    width: 50%;
-    height: 640px;
+    width: 48%;
+    height: 600px;
     margin: 0;
     padding: 0;
+    float: left;
 }
 .lg-img{
     float: left
 }
 .green{
-    width: 45%;
+    width: 43%;
     float: left;
-    height: 610px;
+    height: 570px;
     background-color: #bccf3d;
     text-align: center;
     padding: 15px;
@@ -191,18 +192,16 @@ main{
     text-transform: capitalize;
     text-decoration: none;
     padding: 10px;
-    margin:0;
-
-    
+    margin:0;    
 }
 
 .text-location{
     font-size: 16px;
-    color: #fff;
-    
+    color: #fff;   
 }
 hr{
     width: 50%;
+    color: #fff;
 }
 .tele{
     color: grey;
@@ -213,13 +212,20 @@ hr{
     color: black;
     text-decoration: underline;
 }
-.top-middle{
-    width: 50%;
+.top-right{
+   width: 45%;
+    margin: 0;
+    padding: 0;
     float: left;
 }
 .sm-info{
-    
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 .orange{
-    
+    background-color: #ffc300;
+    text-align: center;
 }
