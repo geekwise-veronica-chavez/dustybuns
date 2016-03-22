@@ -271,5 +271,35 @@ hr{
     float: left;
     width: 50%;
 }
-
-
+.contact-info{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+.section-sm{
+    width: 33%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 550;
+}
+.social-media{
+    font-size: 18px;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.social-media:hover{
+    color: black;
+}
+.yellow-media{
+    color: #ffc300;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.grey-line{
+    color: lightgray;
+}
