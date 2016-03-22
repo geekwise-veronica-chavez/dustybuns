@@ -38,8 +38,10 @@ nav{
     float: left;
     text-decoration: none;
     text-transform: capitalize;
+    padding-top: 25px;
     
 }
+
 .buns-li{
     text-decoration: none;
     font-size: 16px;
@@ -84,7 +86,16 @@ nav{
 #buns-2:checked~.catering{
     display: block;
 }
-
+/*font size for main logo*/
+.font-dusty{
+    font-family: pacifico;
+    padding: 0;
+    margin: 0;
+    
+}
+.font-lg{
+    font-size: 32px;
+}
 .career-main{
     background-image: url("http://i.imgur.com/5YwUHSz.jpg");
     background-repeat: no-repeat;
