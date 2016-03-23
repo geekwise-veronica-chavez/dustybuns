@@ -559,3 +559,82 @@ button:hover{
 
 
 /*fresno box css */
+.lunch-box{
+    width: 90%;
+    margin: 0;
+    padding-top: 25px;
+}
+.fresno-form{
+    width: 100%;
+    font-size: 52px;
+    font-family: pacifico;
+    text-transform: capitalize;
+    margin: auto;
+    text-align: center;
+}
+.form-text{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+.marked{
+    display: inline-block;
+    width: 60%;
+    margin:0 auto;
+    padding-left:255px;
+    padding-top: 15px
+}
+.red{
+    color: red;
+    font-size: 18px;
+   
+}
+.contact-form{
+    width: 60%;
+    margin: auto;
+    padding-top: 25px;
+    
+}
+.con-info{
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.width{
+    width: 100%;
+    
+}
+.data{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.jane{
+    width: 100%;
+    height: 30px;
+    border: solid gray 1px;
+    
+}
+.menu-order{
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+.order{
+    width: 20%;
+    height: 35px;
+    border: solid gray 1px;
+    line-height: 2;
+    margin-left: 8px;
+    padding-left: 5px;
+}
+.total{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.submit{
+    border-style: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+}
