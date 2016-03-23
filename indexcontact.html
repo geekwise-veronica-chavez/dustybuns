@@ -6,14 +6,21 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel='stylesheet' id='tp-pacifico-css' href='http://fonts.googleapis.com/css?family=Pacifico%3A400&#038;ver=4.2.2' type='text/css' media='all' />
         <link rel='stylesheet' id='tp-muli-css' href='http://fonts.googleapis.com/css?family=Muli%3A300&#038;ver=4.2.2' type='text/css' media='all' />
-        <link rel='stylesheet' id='google-roboto-css' href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700&#038;ver=4.2.2' type='text/css' media='all' />
-        <link rel='stylesheet' id='google-roboto-slab-css' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300%2C700&#038;ver=4.2.2'type='text/css' media='all' />
-        <link rel='stylesheet' id='google-droid-serif-css' href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400italic&#038;ver=4.2.2' type='text/css' media='all' />
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script> function initialize() {
+         var mapProp = {
+        center:new google.maps.LatLng(36.7642492,-119.8111818),
+        zoom:5,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
         <link rel="stylesheet" type="text/css" href="css/styleabout.css"/>
     </head>
     <body>
-        
-    <header class="career-header">
+         <header class="career-header fixed">
         <nav>
                 <ul class="home_nav career-home">
                    <li class="career-li font-dusty"> <a href="index.html" class="buns-li font-lg">Dusty Buns</a></li>
@@ -43,43 +50,48 @@
                 </ul>
             </nav>
     </header>
-    
-    <main class=career-main>
-        <div class="img-div"> 
-        <span class="dusty">careers</span> <br>
-        <span class="small-font">Become a part of the Dusty Buns Family</span>
-        </div>
-            
-        </main>
-        <section class="sec-career">
-            <articel class="left-text">Are you someone who understands the values and benefits of organic, locally sourced products used to make food and why it is important to shop/support local business? If so, we would love it for you to join our Dusty Buns family! Here at Dusty Buns, we look for people who meet the skills & abilities listed below.</articel>
-            
-               <div class="right-text">
-                <span class="dusty">cook</span>
-                <aside> <a href="#" class="require">Requirements</a></aside>
-                </div>
-                <div class="right-text2">
-                <span class="dusty">Cashier</span>
-                <aside> <a href="#" class="require">Requirements</a></aside>
-                </div>
-                <div class="skill-li">
-                    <span class="green-text">Skills/Abilities</span>
-                        <p class="skill">-dependable</p>
-                        <p class="skill">-energetic</p>
-                        <p class="skill">-passionate about food</p>
-                        <p class="skill">-outgoing personality</p>
-                        <p class="skill">-detail oriented person</p>
-                        <p class="skill">-ability to work under pressure</p>
-                        <p class="skill">-multi-task in a fast-paced environment</p>
-                        <p class="skill">please feel free to check the job listings for their requirements</p>
-                </div>
-          
-        </section>
-         <footer class="footer">
+    <main class="contact-main">
+        <div class="yellow">contact us </div>
+       <div id="googleMap" style="width:90%;height:400px;"></div>
+      
+       
+        
+    </main>
+
+     <section class="contact-info">
+             <div class="section-sm"> 
+             <span class="yellow-media">contact</span> 
+             <hr  class="grey-line">
+             <br>
+             <a href="#" class="social-media"> 
+             <i class="fa fa-envelope"></i>chefs@dustybuns.com</a>
+             </div>
+             <div class="section-sm">
+             <span class="yellow-media">follow us</span>
+             <hr  class="grey-line">
+              <br>
+             <a href="#" class="social-media">
+             <i class="fa fa-facebook"></i>Facebook</a> 
+             <br>
+             <a href="#" class="social-media">
+             <i class="fa fa-twitter"></i>Twitter</a> 
+             <br>
+             <a href="#" class="social-media">
+             <i class="fa fa-instagram"></i>Instagram</a>
+             </div>
+             <div class="section-sm">
+             <span class="yellow-media"> company</span>
+             <hr class="grey-line"> 
+             <br>
+             <a href="#" class="social-media">
+             <i class="fa fa-users"></i>Careers</a>
+             </div>
+         </section>
+     <footer class="footer">
              <div class="main-footer">
                  <span class="dusty-small"> dusty buns</span>
                  <span class="copyright" >2015. All rights reserved.</span>
-                 <div class="footer-font">"No Freezers, No Fryers, Everything Made From Scratch"</div>
+                 <div class="footer-font">"No Freezers, NO Fryers, Everything Made From Scratch"</div>
              </div>
          </footer>
     </body>
