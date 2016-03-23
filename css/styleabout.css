@@ -294,6 +294,9 @@ header and footer same as other pages*/
     color: #fff;
     padding-top: 190px;
 }
+.padding-top{
+    transform: translateY(230%);
+}
 .about-main{
     width: 95%;
     margin:auto;
@@ -372,6 +375,6 @@ header and footer same as other pages*/
     color:black;
 }
 .margin-right{
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
