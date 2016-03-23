@@ -271,12 +271,58 @@ nav{
     color: #ffc300;
     padding-top: 80px;
 }
+/*google maps */
 #googleMap{
     width: 60%;
     margin: auto;
 }
-iframe{
+/*
+about page css
+header and footer same as other pages*/
+.about-topimg{
+    background-image: url("http://i.imgur.com/XRWj9Kz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.white-dusty{
     width: 100%;
-    height: 300px
+    font-size: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: pacifico;
+    color: #fff;
+    padding-top: 190px;
+}
+.about-main{
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    
+}
+.photo{
+   width: 50%;
+    float: left;
+    
+}
+.award-photo{
+    width: 100%; 
+    float: left;
+}
+.text-wrap{
+  
+
+}
+/*greet-text class in careers and left text*/
+.green-bg{
+    
+}
+.white-dusty{
+    
+}
+.img-slider{
+    
+}
+.slider{
     
 }
