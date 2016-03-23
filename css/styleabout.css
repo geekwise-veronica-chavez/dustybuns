@@ -519,7 +519,8 @@ option{
     color: #fff;
     font-size: 16px;
     border: solid 1px #ccc;
-    margin-top: 10px
+    margin-top: 10px;
+    border-radius: 3px;
 }
 
 .message{
@@ -531,16 +532,30 @@ option{
 }
 textarea{
     font-family: mulil, sans-serif;
-    font-size: 16px
+    font-size: 16px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    background-color: transparent;
+    
 }
 button{
-    margin: auto;
+    margin: auto 0;
     display: block;
     padding: 15px;
     text-transform: uppercase;
-    color: #fff;
     background-color: #ffc300;
     font-family: muli;
     font-weight: bold;
     margin-top: 10px;
+    border-style: none;
 }
+.yellow-button{
+     color: #fff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: black;
+}
+
+
+/*fresno box css */
