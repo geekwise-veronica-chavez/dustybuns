@@ -20,18 +20,17 @@ body{
     background-size: cover;
     height: 100vh;
 }
+/*
 header{
     margin: 0 auto;
     padding: 0;
-    width: 70%;
     height: auto;
 }
+*/
 nav{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    padding: 0;
-    position: relative;
-    top: -550px;
+    padding: 25px;
      
 }
 ul{
@@ -41,7 +40,7 @@ ul{
     display: flex;
 }
 li{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding:0;
     display: inline-block;
@@ -49,29 +48,29 @@ li{
     text-align: center;
     text-transform: capitalize;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "muli";
     font-weight: bold;
-    text-shadow: 1px 1px #000; 
+    text-shadow: 2px 2px #000; 
 }
 .logo-middle{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0;
+    padding-top: 150px;
     font-size: 48px;
-    position: relative;
     text-align: center;
-    top: -420px;
     text-transform: capitalize;
     color: #fff;
     font-family:"muli";
+    position: absolute;
+    z-index: 2;
 
 }
 .dusty{
     font-family:"pacifico";
     font-size: 80px;
-    position: relative;
+   
    
 }
 .buns-li{
@@ -88,20 +87,22 @@ li{
 }
 
 /*dropdown and li*/
-.downward{
-    display: ;
+#downward{
+    display:none;
 }
 .sf-li{
     height: 150px;
     background-color: #f5f5f5;
     display: none;
+    width: 140px;
+    padding-left: 10px;
 }
-.downward:checked~.sf-li{
+#downward:checked~.sf-li{
     display: block;
     
 }
 .bistro{
-    width: 180px;
+    width: 160px;
     height: 30px;
     padding-top: 15px;
     text-align: left;
@@ -115,21 +116,31 @@ li{
     font-family: muli;
     font-weight: 400;
     font-size: 14px;
-}
-.buns-2{
+    text-shadow: none;
     
+
 }
-.buns-2:checked~.catering{
+.locations:hover{
+    background-color:#bccf3d;
+    padding: 10px;
+}
+#buns-2{
+    display: none;
+}
+#buns-2:checked~.catering{
     display: block;
 }
 .catering{
     height: 150px;
     background-color: #f5f5f5;
     display: none;
+    width: 230px;
+    padding-left: 10px
+    
 }
 
 .bistro2{
-     width: 180px;
+     width: 240px;
     height: 30px;
     padding-top: 15px;
     text-align: left;
@@ -139,8 +150,8 @@ li{
     width: 80%;
     margin: auto;
     text-align: center;
-    position: relative;
-    top: -160px;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 .yellow{
     color: #ffc300;
@@ -149,9 +160,7 @@ li{
     font-weight: solid;
     
 }
-.fork-img{
-    
-}
+
 .info{
     font-size: 18px;
     line-height: 2;
@@ -161,37 +170,40 @@ main{
     height: auto;
     margin: 0;
     padding: 0;
+    height: 1000px;
     
 }
 .bistro-location{
     width: 85%;
+    height: 50%;
     margin: 0 auto;
     padding: 0;
-    position: relative;
-    top: -150px;
+    
 
 }
 .top-left{
     width: 50%;
+    height: 100%;
     margin: 0;
     padding: 0;
     float: left;
 }
 .lg-img{
     width: 50%;
+    height: 100%;
     float: left
 }
 .salad{
     width: 100%;
-    height: 497px;
+    height: 100%;
 }
 .green{
-    width: 43%;
+    width: 50%;
     float: left;
-    height: 460px;
+    height:100%;
     background-color: #bccf3d;
     text-align: center;
-    padding: 20px;
+/*    padding: 20px;*/
 }
 .font-awesome{
     color: #fff;
@@ -221,13 +233,14 @@ hr{
 }
 .top-right{
    width: 50%;
+    height: 100%;
     margin: 0;
     padding: 0;
     float: left;
 }
 .sm-info{
-    width: 280px;
-    height: 250px;
+    width: 50%;
+    height: 50%;
     float: left;
     margin: 0;
     padding: 0;
@@ -251,12 +264,10 @@ hr{
 
 .bottom-half{
     width: 85%;
+    height: 50%;
     margin: auto;
     height: auto;
-    padding: 0;
-    position: relative;
-    top: -140px;
-    
+    padding: 0;  
 }
 
 .bottom-left{
@@ -264,12 +275,21 @@ hr{
     padding: 0;
     float: left;
     width: 50%;
+    height: 100%;
+}
+.bm-info{
+     width: 50%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 .bottom-right{
     margin: 0;
     padding: 0;
     float: left;
     width: 50%;
+    height: 50%;
 }
 /*social media css*/
 .contact-info{

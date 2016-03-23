@@ -15,10 +15,6 @@ body{
 .career-header{
     width: 100%;
     margin: 0;
-  
-}
-.fixed{
-    position: fixed;
     
 }
 nav{
@@ -62,29 +58,39 @@ nav{
 .bistro{
     list-style: none;
     padding: 8px;
-    width: 120px;
+    width: 180px;
+    
 }
 .locations{
     text-decoration: none;
     color: grey;
+   
     
 }
+
 .bistro2{
     list-style: none;
     padding: 5px;
-    width: 150px;
+    padding-top: 10px;
+    width: 250px;
 }
-.downward{
-    display: none;
+.locations:hover{
+    background-color:#bccf3d; 
+    padding: 10px;
+    width: 100%;
+}
+#downward{
+    display:none;
 }
 .sf-li{
     display: none;
 }
-.downward:checked~.sf-li{
+#downward:checked~.sf-li{
     display: block;
-    background-color: #f5f5f5;
+/*    background-color: #f5f5f5;*/
     
 }
+/*dropdown for catering*/
 .catering{
     display: none;
 }
