@@ -15,16 +15,22 @@ body{
 .career-header{
     width: 100%;
     margin: 0;
-    padding: 20px;
+  
 }
 .fixed{
     position: fixed;
+    
 }
 nav{
+    
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    padding: 0;
+    padding: 15px;
+    z-index: 5;
+    position: fixed;
+    background-color: #fff;
+    
     
 }
 .career-home{
@@ -279,6 +285,9 @@ nav{
 /*
 about page css
 header and footer same as other pages*/
+.white-block{
+    padding: 30px;
+}
 .about-topimg{
     background-image: url("http://i.imgur.com/XRWj9Kz.jpg");
     background-repeat: no-repeat;
