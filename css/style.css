@@ -399,15 +399,23 @@ hr{
 .bar-label{
    visibility: hidden; 
 }
+#main-drop{
+    display: none;
+}
 
-@media only screen and (max-width:90rem){
+@media only screen and (max-width:900px){
     li{
         font-size: 16px;
     }
     .bar-label{
        visibility: visible;
     }
-    
+    nav{
+        display: none;
+    }
+    #main-drop:checked~nav{
+        display: block;
+    }
    
 }
 @media only screen and (max-width:70rem){
