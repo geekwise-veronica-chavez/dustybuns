@@ -674,38 +674,76 @@ button:hover{
     
 }
 .bistro-main{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
     
 }
 .sf-layout{
-    
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .sm-width{
+   width: 25%;
+    margin: 0;
+    padding: 0;
     
 }
 .left-box{
-    
+    width: 90%;
+    margin: auto;
+    height: 150px;
+    border-bottom: solid 2px #bccf3d;
 }
 .font-62{
-    
+    margin: auto;
+    font-size: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+    height: 110px;
 }
 .open{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
     
 }
 .monday{
-    
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    text-transform: capitalize;
 }
 .grey-time{
-    
+    font-size: 18px;
+    color: grey;
 }
 .pickups{
+    font-size: 20px;
+    font-weight: 700;
+}
+.order-sf{
+    color: grey;
+    text-decoration: none;
     
+}
+.order-sf:hover{
+    color: black;
 }
 .no-border{
-    
+    border-bottom: none;
 }
 .map-sm{
+  padding: 0;
+    margin: 0;
     
 }
 .prices-vary{
-    
+      font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
