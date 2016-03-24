@@ -837,3 +837,11 @@ button:hover{
 .float-right{
     float: right;
 }
+/*fresno bistro*/
+.fresno-img{
+    background-image: url("http://i.imgur.com/hb4ypTp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 70vh;
+}
