@@ -191,43 +191,63 @@ nav{
     font-size: 18px;
     text-transform: capitalize;
 }
-.footer{
+.home-footer{
     float: left;
-    width: 100%;
     background-image: url("http://i.imgur.com/7qJwgPk.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-size: cover;
     height: 30vh;
+    opacity: .9;
+    background-color:grey;
+    width: 100%;
+    background-blend-mode: multiply;
+   
 }
 .main-footer{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    padding: 0;  
+}
+.left-side{
+    width: 25%;
+    text-align: center;
     padding: 0;
-    height: auto;
-    
+    margin: 0;
+    float: left;
+    display: inline-block;
+    padding-top: 50px;
 }
 .dusty-small{
     color: #fff;
-    font-size: 32px;
-    font-family: pacifico;
+    font-size: 36px;
+    font-family: "pacifico";
     text-transform: capitalize;
-    padding: 15px;
-    float: left;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    
+    
 }
 .copyright{
-    color: yellow;
-    font-size: 18px;
-    width: 25%;
-    clear: both;
-    padding: 20px;
-    float: left;
+    color:#ffc300;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "muli";
+    
 }
 .footer-font{
-    font-size: 28px;
+    font-size: 26px;
     color: #fff;
     float: right;
-    font-family: muli;  
+    font-family: "muli";
+    font-weight: bold;
+    padding-top: 80px;
+    width: 60%;
+    text-align: center;
+    
 }
 
 .contact-info{
