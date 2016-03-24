@@ -170,7 +170,8 @@ main{
     height: auto;
     margin: 0;
     padding: 0;
-    height: 1000px;
+    height: 900px;
+    margin-top: 100px;
     
 }
 .bistro-location{
@@ -264,7 +265,6 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     height: 800px;
-    margin-top: 150px;
     
 }
 
@@ -304,7 +304,8 @@ hr{
     width: 80%;
     height: auto;
     margin: auto;
-    padding-top: 20px;
+    position: relative;
+    top: -120px;
 }
 .section-sm{
     width: 33%;
