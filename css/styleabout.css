@@ -792,3 +792,48 @@ button:hover{
     color: #fff;
     background-color: #fff;
 }
+.foods{
+    width: 100%;
+    margin: 0;
+    padding:0;
+ ;
+    
+}
+.bistro-food{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px
+    
+}
+.circles{
+    width: 60%;
+    border-radius: 50%;
+    border: solid 5px #bccf3d;
+    padding: 5px;
+    
+}
+.item{
+    color:#bccf3d; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.content{
+    font-size: 14px;
+    padding: 10px;
+    line-height: 2
+}
+.price-item{
+    color: #bccf3d;
+    font-size: 28px;
+    font-weight: bold;
+    font-family:" muli" sans-serif;
+}
+
+.line-height{
+    line-height: 1.2;
+}
+.float-right{
+    float: right;
+}
