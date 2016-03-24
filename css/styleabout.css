@@ -889,3 +889,66 @@ button:hover{
    color: black;
     font-weight: bold;
 }
+/*requirement pages*/
+
+.cash-main{
+    background-image: url("http://i.imgur.com/GoGgHhx.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 80vh;
+    
+}
+.line-gn{
+    border-bottom: #bccf3d solid 2px;
+}
+/*
+.cashier-line{
+    float: left;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    margin-left: 10px;
+    
+    
+
+}
+*/
+.cash-middle{
+    width: 80%;
+    margin: auto;
+}
+.bottom-cash{
+    float: left;
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    line-height: 2;
+    padding: 10px;
+    
+    
+    
+    
+}
+.bold-cash{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.go-right{
+    width: 23%;
+    float: left;
+    height: 300px;
+    
+}
+.cashier-left{
+    width: 80%;
+    height: 50%;
+    
+}
+.cashier-right{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
