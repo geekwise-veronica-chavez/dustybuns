@@ -83,7 +83,8 @@ li{
 .buns-li:hover{
     background-color: #bccf3d;
     padding: 15px;
-    border: 1px solid #fff;
+    border-radius: 4px;
+
 }
 
 /*dropdown and li*/
@@ -99,6 +100,7 @@ li{
 }
 #downward:checked~.sf-li{
     display: block;
+    border: 1px solid #fff;
     
 }
 .bistro{
