@@ -178,6 +178,8 @@ main{
     height: 50%;
     margin: 0 auto;
     padding: 0;
+    position: relative;
+    top:-95px;
     
 
 }
@@ -260,8 +262,7 @@ hr{
 .wood-img{
     background-image: url("http://i.imgur.com/QpDhcuw.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
+    background-size: contain;
     height: 800px;
     margin-top: 150px;
     
@@ -272,6 +273,8 @@ hr{
     height: 50%;
     margin: auto;
     padding: 0;
+     position: relative;
+    top:-95px;
     
 }
 
