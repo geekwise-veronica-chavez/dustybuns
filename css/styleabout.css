@@ -124,7 +124,14 @@ nav{
     
 }
 .dusty{
-    font-size: 52px;
+    font-size: 58px;
+    text-transform: capitalize;
+    font-family: pacifico;
+    color: #bccf3d;
+    
+}
+.dustyrep{
+    font-size: 42px;
     text-transform: capitalize;
     font-family: pacifico;
     color: #bccf3d;
