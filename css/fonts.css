@@ -1,3 +1,4 @@
+/*
 @font-face{
     src: url("../font.woff");
     font-family: "font.woff";
@@ -12,4 +13,16 @@
     src: url("../q1.woff2");
     font-family:"q1.woff2";
         
-}
+}*/
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script> function initialize() {
+         var mapProp = {
+        center:new google.maps.LatLng(37.7696467,-122.4045352),
+        zoom:5,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>

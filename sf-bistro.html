@@ -9,6 +9,17 @@
         <link rel='stylesheet' id='google-roboto-css' href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700&#038;ver=4.2.2' type='text/css' media='all' />
         <link rel='stylesheet' id='google-roboto-slab-css' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300%2C700&#038;ver=4.2.2'type='text/css' media='all' />
         <link rel='stylesheet' id='google-droid-serif-css' href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400italic&#038;ver=4.2.2' type='text/css' media='all' />
+          <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script> function initialize() {
+         var mapProp = {
+        center:new google.maps.LatLng(37.7696467,-122.4045352),
+        zoom:5,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
         <link rel="stylesheet" type="text/css" href="css/styleabout.css"/>
     </head>
     <body>
@@ -43,10 +54,43 @@
                 </ul>
             </nav>
     </header>
+    <div class="white-block"></div>
     <section class="sf-img">
-       <div class="white-dusty padding-top"> san francisco bistro</div>
-       <span class="small-font">Welcome to Our Newest Location</span>
-
+      <div class="middle-sf">
+       <p class="white-dusty lg-text"> san francisco bistro</p>
+       <p class="small-font push-up">Welcome to Our Newest Location</p>
+       </div>
     </section>
+    <main class="bistro-main">
+        <section class="sf-layout">
+           <div class="sm-width">
+              <div class=" left-box font-62">
+                  hours
+              </div>
+              <div class="open left-box">
+                  <p class="monday"> monday-saturaday</p>
+                  <p class="grey-time">11AM-9PM</p>
+                  <p class="monday">closed on sunday</p>
+              </div>
+              <div class="open left-box">
+                  <p class="pickups">lunch box pick ups</p>
+                  <p class="monday"><a href="sfbox.html">order form</a></p>
+              </div>
+              <div class="font-62 left-box">contact info</div>
+              <div class="left-box no-border">
+                 <p class="monday"> 11 division st.</p>
+                 <p class="moday">san francisco, CA 94103</p>
+                 <p class="monday"><a href="tele+14158952867">&#40;415&#41;895-BUNS</a></p>
+                 <p class="monday"><a href="#">chefs@dustybuns.com</a></p> 
+              </div>
+              <div id="googleMap" style="width:25%;height:200px;" class="map-sm">
+                 <p class="prices-vary"><i>*Prices may vary daily</i></p>
+                  
+              </div>
+               
+           </div>
+            
+        </section>
+    </main>
     </body>
 </html>
