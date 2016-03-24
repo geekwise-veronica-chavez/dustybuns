@@ -385,3 +385,60 @@ hr{
     text-align: center;
     
 }
+.menu{
+    width: 105%;
+}
+/*font awesome and dropdown*/
+.bars{
+    font-size: 28px;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+   
+}
+.bar-label{
+   visibility: hidden; 
+}
+
+@media only screen and (max-width:90rem){
+    li{
+        font-size: 16px;
+    }
+    .bar-label{
+       visibility: visible;
+    }
+    
+   
+}
+@media only screen and (max-width:70rem){
+    li{
+        font-size: 14px;
+    }
+    .menu-buns:hover{
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom:15px;
+        background-color: transparent;
+    }
+    
+    .middle-text{
+       padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width:50rem){
+    nav{
+        display: block;
+    }
+    ul{
+        display: block;
+    }
+    li{
+        font-size: 14px;
+        display: block;
+        width: 100%;
+        clear: both;
+        height: 35px;
+    
+    }
+}
