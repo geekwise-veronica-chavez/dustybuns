@@ -845,3 +845,20 @@ button:hover{
     background-size: cover;
     height: 70vh;
 }
+.bus-img{
+     background-image: url("http://i.imgur.com/u1nfc12.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 80vh;
+}
+.more-padding{
+   padding-top: 50px;
+}
+.bigger-box{
+    height: 300px;
+}
+.week{
+   color: black;
+    font-weight: bold;
+}
