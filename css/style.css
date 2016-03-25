@@ -454,10 +454,24 @@ hr{
 #main-drop{
     visibility: hidden;
 }
-
+@media only screen and (max-width:1100px){
+    nav{
+        width: 100%;
+    }
+    .buns-li:hover{
+        padding: 5px;
+    }
+    .
+}
 @media only screen and (max-width:900px){
+    nav{
+        width: 100%;
+    }
+    ul{
+        
+    }
     li{
-        font-size: 16px;
+        font-size: 14px;
     }
     .bar-label{
        visibility: visible;
@@ -470,12 +484,19 @@ hr{
     }
    
 }
-@media only screen and (max-width:70rem){
+@media only screen and (max-width:795px){
     nav{
-   
+       width: 100%;
+    }
+    
+    ul{
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
     li{
         font-size: 14px;
+        
     }
     .menu-buns:hover{
         padding: 0;
@@ -489,15 +510,43 @@ hr{
         padding-bottom: 0;
     }
 }
-@media only screen and (max-width:50rem){
+@media only screen and (max-width:650px){
     nav{
         width: 100%;
         background-color: #bccf3d;
-        display: block;
         padding-top: 85px;
-        margin-top: -10px
+        margin-top: -10px; 
+       
+    }
+    ul{
+        display: block;
+        width: 100%;
         
+    }
+    .sf-li{
+        margin-left: 235px;
+    }
+    
+    li{
+        clear: both;
+        display: block;
+        padding: 10px;
         
+    }
+    .border-top{
+        border-top: 1px solid black;
+    }
+    .catering{
+        margin-left: 180px;
+    }
+    
+}
+@media only screen and (max-width:500px){
+    nav{
+        width: 100%;
+        background-color: #bccf3d;
+        padding-top: 85px;
+        margin-top: -10px; 
     }
     ul{
         display: block;
@@ -514,4 +563,17 @@ hr{
         width: 100%;
         border-top: solid 1px black;
     }
+    .sf-li{
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .catering{
+        margin: 0;
+        margin-top: 15px;
+    }
+    .middle-text{
+        margin-top: 100px;
+    }
+
 }
