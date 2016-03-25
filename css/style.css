@@ -454,9 +454,15 @@ hr{
 #main-drop{
     visibility: hidden;
 }
+@media only screen and (max-width:1300px){
+    .menu-buns:hover{
+         padding:8px;   
+    }
+}
 @media only screen and (max-width:1100px){
+    
     nav{
-        width: 100%;
+        width: 90%;
     }
     .buns-li:hover{
         padding: 5px;
@@ -465,7 +471,7 @@ hr{
 }
 @media only screen and (max-width:900px){
     nav{
-        width: 100%;
+        width: 90%;
     }
     ul{
         
@@ -486,7 +492,7 @@ hr{
 }
 @media only screen and (max-width:795px){
     nav{
-       width: 100%;
+       width: 90%;
     }
     
     ul{
@@ -504,7 +510,9 @@ hr{
         padding-bottom:15px;
       
     }
-    
+    .menu{
+        width: 100%;
+    }
     .middle-text{
        padding-top: 0;
         padding-bottom: 0;
@@ -569,6 +577,7 @@ hr{
     }
     .logo-middle{
         font-size: 38px;
+        padding-top: 10;
     }
     .dusty{
         font-size: 48px;
@@ -650,7 +659,7 @@ hr{
     }
     .logo-middle{
         font-size: 22px;
-        
+     
     }
     .dusty{
         font-size: 32px;

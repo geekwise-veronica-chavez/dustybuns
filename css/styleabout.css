@@ -32,7 +32,7 @@ nav{
 .career-home{
     margin: 0 ;
     padding: 0;
-    width: 100%;
+    width: 80%;
     text-align: center;
     
 }
@@ -51,6 +51,7 @@ nav{
     font-size: 16px;
     color: black;
     font-weight: bold;
+    
 }
 .buns-li:hover{
     color:#bccf3d; 
@@ -864,6 +865,48 @@ button:hover{
 .float-right{
     float: right;
 }
+/*label and checkbox*/
+.bars{
+    font-size:28px;
+}
+.main-label{
+    display: none;
+    float: right;
+}
+.menu{
+   padding-left: 5px;
+    padding-right: 10px;
+}
+#drop{
+    display:;
+}
+nav{
+    background-color: transparent;
+}
+
+/*media query fir sf bistro*/
+@media only screen and (max-width:1300px){
+    .career-home{
+        width: 90%;
+    }
+    
+    .menu{
+        width: 150px;
+    }
+}
+@media only screen and (max-width:1100px){
+    .main-label{
+        display: block;  
+    }
+    ul{
+        display: none;
+        
+    }
+    #drop:checked~ul{
+        display: block;
+    }
+}
+
 /*fresno bistro*/
 .fresno-img{
     background-image: url("http://i.imgur.com/hb4ypTp.jpg");
