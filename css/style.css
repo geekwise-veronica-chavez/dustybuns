@@ -509,6 +509,34 @@ hr{
        padding-top: 0;
         padding-bottom: 0;
     }
+    .bistro-location{
+        width: 90%;
+    }
+    .bottom-half{
+        width:90%;
+    }
+    .wood-img{
+       padding-bottom: 600px;
+        height: 100%;
+        background-size: cover;
+    }
+    .top-left{
+        width: 100%;
+    }
+    .top-right{
+        width: 100%;
+    }
+    .bottom-left{
+        width: 100%;
+    }
+    .bottom-right{
+        width: 100%;
+    }
+    .contact-info{
+        top: 0;
+        
+    }
+   
 }
 @media only screen and (max-width:650px){
     nav{
@@ -539,7 +567,52 @@ hr{
     .catering{
         margin-left: 180px;
     }
+    .logo-middle{
+        font-size: 38px;
+    }
+    .dusty{
+        font-size: 48px;
+    }
+     .section-sm{
+        width: 100%; 
+         
+        
+    }
     
+    .yellow-media{
+        font-size: 18px;
+    }
+    .social-media{
+        font-size: 12px;
+        position: relative;
+        top: -35px;
+    }
+    .home-footer{
+        height: 100%
+    }
+    .main-footer{
+        height: 250px;
+        padding-top: 15px
+    }
+    .left-side{
+       width: 100%;
+        padding-top: 15px;
+        text-align:left;
+        padding-left: 20px;
+        padding-top: 35px;
+    }
+    .dusty-small{
+        font-size: 28px;
+    }
+    .copyright{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .footer-font{
+        width: 100%;
+        padding-top: 55px;
+        font-size: 13px;
+    }
 }
 @media only screen and (max-width:500px){
     nav{
@@ -575,5 +648,20 @@ hr{
     .middle-text{
         margin-top: 100px;
     }
+    .logo-middle{
+        font-size: 22px;
+        
+    }
+    .dusty{
+        font-size: 32px;
+    }
+    .bistro-location{
+        width: 100%;
+    }
+    .bottom-half{
+        width: 100%;
+    }
+        
+    
 
 }
