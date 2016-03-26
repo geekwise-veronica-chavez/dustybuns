@@ -199,6 +199,35 @@ nav{
     font-size: 18px;
     text-transform: capitalize;
 }
+@media only screen and (max-width:700px){
+    .sec-career{
+        width: 100%;
+        clear: both;
+    }
+    .right-text{
+        width: 100%;
+        text-align: left;
+        position: relative;
+        bottom: -400px;
+        margin-top: 50px;
+    }
+    .right-text2{
+        width: 100%; 
+        text-align: left;
+        position: relative;
+        bottom: -380px;
+        padding-bottom: 15px;
+    }
+    .skill-li{
+        width: 100%;
+        float: left;
+        text-align: left;
+        position: relative;
+        top: -300px
+    }
+    
+}
+/*footer onn all pages*/
 .home-footer{
     float: left;
     background-image: url("http://i.imgur.com/7qJwgPk.jpg");
@@ -313,6 +342,24 @@ nav{
 #googleMap{
     width: 60%;
     margin: auto;
+}
+@media only screen and (max-width:850px){
+    .contact-info{
+        width: 100%;
+    }
+    .section-sm{
+        width: 100%;
+        float: none;
+    }
+    
+    .yellow-media{
+        font-size: 18px;
+    }
+    .social-media{
+        font-size: 12px;
+        position: relative;
+        top: -35px;
+    }
 }
 /*
 about page css
@@ -588,8 +635,86 @@ button{
 button:hover{
     background-color: black;
 }
-
-
+@media only screen and (max-width:1350px){
+    .special{
+        height: 215vh;
+    }
+}
+@media only screen and (max-width:1100px){
+    .special{
+        height: 220vh;
+    }
+}
+@media only screen and (max-width:900px){
+    .special{
+        height: 300vh;
+    }
+    .special-img{
+        width: 100%; 
+    } 
+    .left-special{
+        width: 80%;
+        float: none;
+        margin: auto;
+    }
+    .truck{
+        margin-left: 35px;
+    }
+    .form{
+        width: 80%;
+        float: none;
+        margin: auto;
+    }
+    .bottom-form{
+        width: 80%;
+        float: none;
+        margin: auto;
+    }
+    .service-time{
+        float: left;
+    }
+}
+@media only screen and (max-width:500px){
+    .left-special{
+        width: 100%;
+    }
+    .truck{
+        width: 80%;
+    }
+    .form{
+        width: 100%;
+    }
+    .bottom-form{
+        width: 100%;
+    }
+    .service-time{
+        width: 100%;
+    }
+    .bar-service{
+        width: 80%;
+    }
+    .message{
+        width: 100%;
+        text-align: center;
+    }
+    button{
+        margin-left: 135px;
+    }
+    .special{
+        height: 305vh;
+    }
+}
+@media only screen and (max-width:350px){
+    .special{
+        height: 400vh
+    }
+    .message{
+        width: 80%
+    }
+    button{
+        margin: 0;
+    }
+}
 /*fresno box css */
 .lunch-box{
     width: 90%;
