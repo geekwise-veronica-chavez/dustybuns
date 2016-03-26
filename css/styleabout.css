@@ -19,10 +19,10 @@ body{
 }
 nav{
     
-    display: flex;
+/*    display: flex;*/
     width: 100%;
     margin: auto;
-    padding: 15px;
+/*    padding: 15px;*/
     z-index: 5;
     position: fixed;
     background-color: #fff;
@@ -32,13 +32,13 @@ nav{
 .career-home{
     margin: 0 ;
     padding: 0;
-    width: 80%;
+    width: 100%;
     text-align: center;
     
 }
 .career-li{
     display: inline-block;
-    width: calc(100%/7);
+    width: 12%;
     float: left;
     text-decoration: none;
     text-transform: capitalize;
@@ -104,7 +104,7 @@ nav{
     font-family: pacifico;
     padding: 0;
     margin: 0;
-    
+    padding-top: 20px;
 }
 .font-lg{
     font-size: 32px;
@@ -878,20 +878,31 @@ button:hover{
     padding-right: 10px;
 }
 #drop{
-    display:;
+    display:none;
 }
+/*
 nav{
     background-color: transparent;
 }
+*/
 
 /*media query fir sf bistro*/
 @media only screen and (max-width:1300px){
     .career-home{
-        width: 90%;
+        width: 80%;
+        margin: auto;
     }
     
     .menu{
         width: 150px;
+    }
+    .font-dusty{
+        width: 15%;
+        
+    }
+    .middle-sf{
+        padding-top: 150px;
+        width: 100%;
     }
 }
 @media only screen and (max-width:1100px){
@@ -899,14 +910,59 @@ nav{
         display: block;  
     }
     ul{
-        display: none;
-        
+        display: none; 
     }
     #drop:checked~ul{
         display: block;
     }
+    .career-li{
+        width: 100%;
+    }
+    .home{
+       border-top: solid 1.5px;
+    }
+    .font-dusty{
+        width: 30%;
+        height: 50px;
+    }
+    .bars{
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+    
+    .media-font{
+        font-size: 42px;
+    }
 }
-
+@media only screen and (max-width:700px){
+    .career-li{
+        width: 100%;
+    }
+    
+    .font-dusty{
+    width: 25%;
+    }
+    .career-home{
+        margin-top: 80px;
+    }
+    .bars{
+        padding-top: 25px;
+        padding-right: 10px;
+    }
+    
+}
+@media only screen and (max-width:500px){
+    .bars{
+        padding-top:28px;
+    }
+    .media-font{
+        font-size: 34px;
+        
+    }
+    .font-dusty{
+        width: 80%;
+    }
+}
 /*fresno bistro*/
 .fresno-img{
     background-image: url("http://i.imgur.com/hb4ypTp.jpg");
