@@ -441,6 +441,9 @@ hr{
 .push-down{
     padding-top: 10px;
 }
+.text-decor{
+    text-decoration: none;
+}
 /*font awesome and dropdown*/
 .bars{
     font-size: 28px;
