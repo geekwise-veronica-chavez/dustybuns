@@ -1,13 +1,13 @@
 html,body{
     margin: 0;
     padding: 0;
-    width: 100%;
     font-size: 12px;
 }
 body{
     color: #525252;
     font-family: "muli",sans-serif;
     font-weight: 300;
+    width:100%;
     
 }
 .burger{
@@ -702,4 +702,29 @@ hr{
         
     
 
+}
+@media only screen and (max-width:320px){
+    main{
+        width: 100%;
+    }
+    .bistro-location{
+        width: 100%;
+    }
+    .top-left{
+        width: 100%;
+    }
+    .lg-img{
+        width: 50%;
+        
+    }
+    .salad{
+        width: 100%;
+    }
+    .top-right{
+        width: 100%;
+    }
+    .pics-home{
+        width: 100%;
+       
+    }
 }
