@@ -458,31 +458,16 @@ hr{
 #main-drop{
     visibility: hidden;
 }
+.menu-buns:hover{
+    padding: 8px;
+}
 @media only screen and (max-width:1300px){
     .menu-buns:hover{
          padding:8px;   
     }
 }
-@media only screen and (max-width:1100px){
-    
-    nav{
-        width: 95%;
-    }
-    .buns-li:hover{
-        padding: 5px;
-    }
-    
-}
-/*need to target menu/location */
-@media only screen and (max-width:950px){
-    
-   
-}
-@media only screen and (max-width:900px){
-    .burger{
-        width: 100%;
-    }
-    nav{
+@media only screen and (max-width:1250px){
+      nav{
         width: 94%;
         background-color: #bccf3d;
         padding-top: 85px;
@@ -511,6 +496,25 @@ hr{
     #main-drop:checked~nav{
         display: block;
     }
+    .buns-li:hover{
+        padding: 5px;
+    }
+    .menu-buns{
+        margin-right: 105px;
+    }
+    
+    
+}
+/*need to target menu/location */
+@media only screen and (max-width:950px){
+    
+   
+}
+@media only screen and (max-width:900px){
+    .burger{
+        width: 100%;
+    }
+    
 
     .logo-middle{
        display: table-caption;
@@ -538,7 +542,9 @@ hr{
       
     }
     .menu{
-        width: 100%;
+        width: 80%;
+        display: block;
+        margin: auto;
     }
     .middle-text{
        padding-top: 0;
@@ -599,6 +605,9 @@ hr{
         padding: 10px;
         
 */
+    }
+    .menu-buns{
+        margin-left: 90px;
     }
     
     .catering{
@@ -699,11 +708,26 @@ hr{
     .bottom-half{
         width: 100%;
     }
+    .menu-buns{
+        margin-right:  15px;
+    }
         
     
 
 }
 @media only screen and (max-width:320px){
+    .burger{
+        width: 100%;
+    }
+    nav{
+       width: 80%; 
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu-buns{
+        margin: 5px;
+    }
     main{
         width: 100%;
     }
@@ -727,4 +751,5 @@ hr{
         width: 100%;
        
     }
+    
 }
