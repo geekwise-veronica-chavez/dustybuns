@@ -286,6 +286,10 @@ nav{
     text-align: center;
     
 }
+/*footer dusty underline and link*/
+.text-decor{
+    text-decoration: none;
+}
 
 .contact-info{
     width: 80%;
