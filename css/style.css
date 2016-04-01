@@ -42,7 +42,7 @@ ul{
 li{
     width: 90%;
     margin: 0 auto;
-    padding:0;
+    padding:5px;
     display: inline-block;
     list-style:none;
     text-align: center;
@@ -52,6 +52,10 @@ li{
     font-family: "muli";
     font-weight: bold;
     text-shadow: 2px 2px #000; 
+}
+li:hover{
+   background-color: #bccf3d;
+    border-radius: 5px;
 }
 .logo-middle{
     width: 100%;
@@ -81,9 +85,7 @@ li{
 }
 /*font colors and fonts*/
 .buns-li:hover{
-    background-color: #bccf3d;
-    padding: 15px;
-    border-radius: 4px;
+    
 
 }
 
@@ -420,7 +422,7 @@ hr{
 }
 .menu{
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: px;
 }
 .order-form{
     color: grey;
@@ -462,11 +464,8 @@ hr{
     padding: 8px;
 }
 @media only screen and (max-width:1300px){
-    .menu:hover{
-        padding: 8px;
-    }
-    .menu-buns:hover{
-         padding:0px;   
+    nav{
+        width: 95%
     }
 }
 @media only screen and (max-width:1150px){
