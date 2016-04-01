@@ -27,16 +27,18 @@ nav{
 /*    padding: 15px;*/
     z-index: 5;
     position: fixed;
-    background-color: #fff;
+/*    background-color: #fff;*/
     
     
 }
 .career-home{
     margin: 0 ;
     padding: 0;
-    width: 90%;
+    width: 100%;
+    height: 60px;
     display: block;
     text-align: center;
+    background-color: #fff;
     
 }
 .career-li{
@@ -46,8 +48,106 @@ nav{
     text-decoration: none;
     text-transform: capitalize;
     padding-top: 25px;
+    list-style: none;
+    
     
 }
+.buns-li{
+    color: black;
+    text-decoration: none;
+    font-family: muli, sans;
+    
+}
+/*font colors and fonts*/
+.buns-li:hover{
+    background-color: #bccf3d;
+    padding: 15px;
+    border-radius: 4px;
+
+}
+
+/*dropdown and li*/
+#downward{
+    display:none;
+}
+.sf-li{
+    height: 125px;
+    background-color: #f5f5f5;
+    display: none;
+    width: 140px;
+    margin-top: 15px;
+    list-style: none;
+    padding: 0;
+
+}
+#downward:checked~.sf-li{
+    display: block;
+    border: 1px solid #fff;
+    
+}
+.bistro{
+/*    width: 95%;*/
+    height: 32px;
+    padding: 5px 6px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.bistro:hover{
+    background-color:#bccf3d;
+    color: #fff;
+    
+}
+
+.locations{
+    text-decoration: none;
+    color: black;
+    font-family: muli;
+    font-weight: 200;
+    font-size: 14px;
+    text-shadow: none;
+    
+    
+
+}
+.locations:hover{
+    padding: 5px;
+    color: #fff;
+    
+}
+#buns-2{
+    display: none;
+}
+#buns-2:checked~.catering{
+    display: block;
+    
+}
+
+.catering{
+    height: 150px;
+    background-color: #f5f5f5;
+    display: none;
+    width: 240px;
+    padding-left: 1px;
+    margin-top: 15px;
+    list-style: none;
+    
+}
+
+
+.bistro2{
+    width: 230px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.bistro2:hover{
+    background-color: #bccf3d;
+}
+/*
 
 .buns-li{
     text-decoration: none;
@@ -89,28 +189,35 @@ nav{
 }
 #downward:checked~.sf-li{
     display: block;
+}
 /*    background-color: #f5f5f5;*/
     
-}
+
+
+
 /*dropdown for catering*/
+/*
 .catering{
     display: none;
 }
+
 #buns-2{ 
     display: none;
 }
 #buns-2:checked~.catering{
     display: block;
 }
+*/
 /*font size for main logo*/
+
 .font-dusty{
-    font-family: pacifico;
+    font-family:"pacifico";
     padding: 0;
     margin: 0;
     padding-top: 20px;
 }
 .font-lg{
-    font-size: 32px;
+    font-size: 24px;
 }
 .career-main{
     background-image: url("http://i.imgur.com/5YwUHSz.jpg");
