@@ -315,7 +315,8 @@ nav{
         width: 100%;
     }
     nav{
-        width: 93%;
+        width: 100%;
+        background-color: #fff;
     }
     .career-main{
         width: 100%;
@@ -1185,10 +1186,14 @@ nav{
     .main-label{
         display: block;  
     }
+    nav{
+        background-color: #fff;
+    }
     ul{
         display: none; 
     }
     #drop:checked~ul{
+        
         display: block;
     }
     .career-li{
