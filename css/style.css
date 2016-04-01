@@ -462,11 +462,14 @@ hr{
     padding: 8px;
 }
 @media only screen and (max-width:1300px){
+    .menu:hover{
+        padding: 8px;
+    }
     .menu-buns:hover{
-         padding:8px;   
+         padding:0px;   
     }
 }
-@media only screen and (max-width:1250px){
+@media only screen and (max-width:1150px){
       nav{
         width: 94%;
         background-color: #bccf3d;
