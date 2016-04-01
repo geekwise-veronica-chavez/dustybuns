@@ -130,10 +130,10 @@ nav{
     font-family:"pacifico";
     padding: 0;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .font-lg{
-    font-size: 24px;
+    font-size: 30px;
 }
 .career-main{
     background-image: url("http://i.imgur.com/5YwUHSz.jpg");
@@ -226,6 +226,7 @@ nav{
     font-size: 18px;
     text-transform: capitalize;
 }
+/*media for careers*/
 @media only screen and (max-width:700px){
     .career-header{
         width: 100%;
@@ -1056,7 +1057,7 @@ button:hover{
     padding-right: 10px;
 }
 #drop{
-    display:none;
+    display:;
 }
 .down-four{
     padding-top: 70px;
@@ -1102,14 +1103,16 @@ nav{
     .main-label{
         display: block;  
     }
+
     nav{
         background-color: #fff;
     }
+
     ul{
         display: none; 
     }
-    #drop:checked~ul{
-        
+    
+    #drop:checked+ul{
         display: block;
     }
     .career-li{
@@ -1120,7 +1123,7 @@ nav{
     }
     .font-dusty{
         width: 30%;
-        height: 50px;
+        height: 40px;
     }
     .bars{
         padding-top: 30px;
