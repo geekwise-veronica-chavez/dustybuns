@@ -59,6 +59,12 @@ li:hover{
     border-radius: 5px;
 }
 */
+.menu:hover{
+    background-color: #bccf3d;
+    padding: 5px;
+    border-radius: 4px;
+    height: 25px;
+}
 .logo-middle{
     width: 100%;
     height: auto;
@@ -469,7 +475,7 @@ hr{
     nav{
         width: 95%
     }
-
+   
 }
 @media only screen and (max-width:1150px){
       nav{
