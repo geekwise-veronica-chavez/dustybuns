@@ -968,6 +968,13 @@ button:hover{
     padding: 0;
     margin: 0;
 }
+.blocks-green{
+    list-style: none;
+}
+.block-green:hover{
+    background-color: #fff;
+    color: black;
+}
 .icons{
     width: calc(100%/5);
     float: left;
