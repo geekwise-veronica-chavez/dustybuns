@@ -751,9 +751,7 @@ button:hover{
         width: 100%;
         text-align: center;
     }
-    button{
-        margin-left: 135px;
-    }
+    
     .special{
         height: 305vh;
     }
@@ -1015,6 +1013,7 @@ button:hover{
 }
 .bistro-food{
     width: 33.3%;
+    height: 350px;
     float: left;
     text-align: center;
     margin: auto;
@@ -1185,6 +1184,7 @@ nav{
     
     .bistro-food{
         width: 100%;
+        height: auto;
         float: none;
     }
     .circles{
