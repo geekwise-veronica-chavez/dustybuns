@@ -42,7 +42,7 @@ ul{
 li{
     width: 90%;
     margin: 0 auto;
-    padding:5px;
+    padding:0px;
     display: inline-block;
     list-style:none;
     text-align: center;
@@ -53,10 +53,12 @@ li{
     font-weight: bold;
     text-shadow: 2px 2px #000; 
 }
+/*
 li:hover{
    background-color: #bccf3d;
     border-radius: 5px;
 }
+*/
 .logo-middle{
     width: 100%;
     height: auto;
@@ -85,7 +87,9 @@ li:hover{
 }
 /*font colors and fonts*/
 .buns-li:hover{
-    
+    background-color: #bccf3d;
+    padding: 15px;
+    border-radius: 4px;
 
 }
 
@@ -460,13 +464,12 @@ hr{
 #main-drop{
     visibility: hidden;
 }
-.menu-buns:hover{
-    padding: 8px;
-}
+
 @media only screen and (max-width:1300px){
     nav{
         width: 95%
     }
+
 }
 @media only screen and (max-width:1150px){
       nav{
