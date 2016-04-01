@@ -11,6 +11,8 @@ body{
     color: #525252;
     font-family: "muli", sans-serif;
     font-weight: 300;
+    width: 100%;
+    height: auto;
 }
 .career-header{
     width: 100%;
@@ -32,7 +34,8 @@ nav{
 .career-home{
     margin: 0 ;
     padding: 0;
-    width: 100%;
+    width: 90%;
+    display: block;
     text-align: center;
     
 }
@@ -112,7 +115,8 @@ nav{
 .career-main{
     background-image: url("http://i.imgur.com/5YwUHSz.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: content;
+    background-size: 100% 100%;
     height: 90vh;
     
 }
@@ -200,6 +204,15 @@ nav{
     text-transform: capitalize;
 }
 @media only screen and (max-width:700px){
+    .career-header{
+        width: 100%;
+    }
+    nav{
+        width: 93%;
+    }
+    .career-main{
+        width: 100%;
+    }
     .sec-career{
         width: 100%;
         clear: both;
@@ -208,7 +221,7 @@ nav{
         width: 100%;
         text-align: left;
         position: relative;
-        bottom: -400px;
+        bottom: -380px;
         margin-top: 50px;
     }
     .right-text2{
@@ -226,6 +239,18 @@ nav{
         top: -300px
     }
     
+}
+@media only screen and (max-width:480px){
+    .skill-li{
+        margin: 0;
+        padding: 0;
+       
+        font-size: 13px;
+    }
+    .right-text{
+        margin-top: 15px;
+        bottom: -390px;
+    }
 }
 /*footer onn all pages*/
 .home-footer{
