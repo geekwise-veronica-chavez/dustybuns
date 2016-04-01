@@ -785,14 +785,17 @@ button:hover{
     width: 100%;
     margin: auto;
     text-align: center;
+    padding-bottom: 15px;
     
 }
+
 .marked{
-    display: inline-block;
+     padding: 0;
+    margin: auto;
     width: 60%;
-    margin:0 auto;
-    padding-left:255px;
-    padding-top: 15px
+    color: gray;
+    font-family: "muli",serif;
+    font-size: 15px;
 }
 .red{
     color: red;
@@ -851,6 +854,48 @@ button:hover{
     background-color: transparent;
     font-size: 18px;
     color: #fff;
+}
+/*media query for fresno and sf lunch*/
+
+@media only screen and (max-width:700px){
+    
+    .contact-form{
+        width: 100%;
+    }
+    .contact-media{
+        font-size: 26px;
+    }
+    .menu-order{
+        font-size: 16px;
+    }
+    .order{
+        width: 30%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width:480px){
+    .form-text{
+        width: 100%;
+        
+    }
+    .marked{
+        width: 100%;
+        text-align: center;
+    }
+    .contact-media{
+        font-size: 24px;
+    }
+    .data{
+        font-size: 16px;
+    }
+    .menu-order{
+        font-size: 14px;
+        
+    }
+    .order{
+        width: 100%;
+    }
+    
 }
 /*bistros css begins*/
 .sf-img{
