@@ -633,8 +633,6 @@ hr{
     }
      .section-sm{
         width: 100%; 
-         
-        
     }
     
     .yellow-media{
@@ -674,24 +672,25 @@ hr{
 }
 @media only screen and (max-width:500px){
     nav{
-        width: 100%;
+       width: 88%;
         background-color: #bccf3d;
         padding-top: 85px;
         margin-top: -10px; 
     }
     ul{
+        
         display: block;
     }
     li{
         font-size: 14px;
         display: block;
-        width: 100%;
+        width: 90%;
         clear: both;
        padding: 15px;
         
     }
     .border-top{
-        width: 100%;
+        width: 98%;
         border-top: solid 1px black;
     }
     .sf-li{
@@ -733,8 +732,11 @@ hr{
     nav{
        width: 80%; 
     }
+    .border-top{
+        width:95%;
+    }
     .menu{
-        width: 100%;
+        width: 90%;
     }
     .menu-buns{
         margin: 5px;
