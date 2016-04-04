@@ -699,7 +699,7 @@ button:hover{
         height: 220vh;
     }
 }
-@media only screen and (max-width:900px){
+@media only screen and (max-width:950px){
     .special{
         height: 300vh;
     }
@@ -707,12 +707,12 @@ button:hover{
         width: 100%; 
     } 
     .left-special{
-        width: 80%;
+        width:80%;
         float: none;
         margin: auto;
     }
     .truck{
-        margin-left: 35px;
+       width: 100%;
     }
     .form{
         width: 80%;
