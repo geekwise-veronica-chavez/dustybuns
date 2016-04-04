@@ -75,7 +75,7 @@ li:hover{
     text-transform: capitalize;
     color: #fff;
     font-family:"muli";
-    position: absolute;
+    position: sticky;
     z-index: 2;
 
 }
